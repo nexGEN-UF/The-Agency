@@ -1,0 +1,374 @@
+.member-details{
+    width:100%;
+    position: absolute;
+    height:100%;
+    top:100%;
+    background-color:rgba(0,0,0,0.65);
+    text-align: left;
+    padding:20px;
+    cursor: default;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#manager{
+    background-color:rgba(100,0,0,0.65);
+}
+
+.team-box:hover .member-details{
+    top:0;
+}
+
+.member-details .strip{
+		width: 100%;
+		margin-top: 0.2rem;
+		margin-bottom:0.2rem;
+		height: 1px;
+		background-color:rgba(255,255,255,0.1);
+}
+
+#contact .socials{
+		width: auto;
+		left: 40px;
+		position: relative;
+		margin-top:10px;
+	}
+
+#contact .socials a{
+		width: 45px;
+		height: 45px;
+		text-align: center;
+		line-height: 0px;
+		font-size: 20px;
+		border-radius: 100%;
+		color:white;
+		opacity: .8;
+		background:rgba(255,255,255,0.4);
+		display: inline-block;
+		margin-right: 12px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+#contact .socials a:hover{
+		opacity: 1;
+	}
+
+.mavylogo{
+    width:100%;
+    height:auto;
+}
+
+#team figure h3 {
+    line-height: 1.5em;
+}
+
+.learn-more{
+    font-size: 15px;
+    color: white;
+    line-height: 1.866;
+    background: transparent;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    height: 50px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 130px;
+}
+
+.learn-more:hover{
+	background: white;
+	color: #9194C0;
+}
+
+#talent {
+	height: 400px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .slogan { font-size: 2em; padding-bottom: 10px;}
+    .slogan-2 { font-size: 2em; margin-bottom: -25px;}
+    .mavylogo {width: 80%; height: auto;}
+    #home .container-fluid .row h3 { font-size: 0.75rem; font-weight: 300;}
+    #milli-team h5 {font-size: 0.75rem;}
+    #milli-team figure h3 {font-size: 0.55rem; line-height: 0.7rem}
+    #milli-team p {font-size: 0.4rem;}
+	section h1 {font-size: 2rem;}
+	#testimonials .inner h1, #clients h1 {font-size: 2rem;}
+	#contact .socials a{margin-right: 0.4rem;}
+	#contact .socials {left: 7px;}
+	#home {visibility: hidden; display: none;}
+	#mana-milli h5 {font-size: 0.75rem;}
+    #mana-milli figure h3 {font-size: 0.55rem; line-height: 0.7rem;}
+    #nav {background-color: rgba(51,51,51,.4);}
+}
+
+@media only screen and (max-width: 374px) {
+	#contact .socials a{
+		padding-top: 0;
+		height: 30px;
+		width: 30px;
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#header-tagline { width: 40%;}
+}
+
+@media only screen and (min-width: 62em){
+	.outliers {
+		margin-left: 12.5%;
+	}
+	.last-outlier{
+		margin-left: 0;
+	}
+}
+
+#clients img {
+    margin: 15px;
+    /*-webkit-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;*/
+}
+
+
+.pillars {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+    
+div .icon:hover {
+    background-color: #111111;
+}
+
+#catalyst-icon {
+    background-color:aquamarine;
+}
+
+#strategist-icon {
+    background-color: darkviolet;
+}
+
+#connector-icon {
+    background-color:firebrick;
+}
+
+#creative-icon {
+    background-color: beige;
+}
+
+#nexGEN-icon {
+    background-color: darkorange;
+}
+
+#division {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0*/
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+    height: 500px;
+    width: 10px;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+#testimonials-carousel li{
+    float: none;
+}
+
+/*~~~~~~~~~~~~~~~~THE TEAM~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.accordion-wrapper {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.panel-title {
+    margin: 0 auto;
+    height: 25px;
+}
+
+.panel-title a {
+    text-decoration:none;
+    margin: 0 auto;
+}
+
+.panel-title a:hover {
+    cursor: pointer;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.pillar-panel {
+	  color: white important!;
+    font-family: Lato;
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#catalyst-panel {
+    background-color: #CFDBCA; /*Pale Mint*/
+}
+
+#strategist-panel {
+    background-color: #F1D5AB; /*Hay*/
+}
+
+#creative-panel {
+    background-color: #D46C62; /*Brick*/
+}
+
+#developers-panel {
+    background-color: #CFB691; /*Suede*/
+}
+
+#connector-panel {
+    background-color: #B1B3B6; /*Pale Gray*/
+}
+
+#admin-panel{
+    background-color: #58595B; /*Graphite*/
+	  margin-bottom: 60px;
+}
+
+#admin-panel:hover, #catalyst-panel:hover, #strategist-panel:hover, #connector-panel:hover, #creative-panel:hover, #developers-panel:hover {
+	border: 3px solid white;
+}
+
+figure {
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: white !important;
+}
+
+.pillar-panel a {
+	text-decoration: none;
+}
+
+/*~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~*/
+
+.footer-logo {
+    width: 15%;
+    height: 15%;*/
+}
+
+@media only screen and (max-width: 767px) {
+	#headline {
+        height: 40%;
+        width: 40%;
+    }
+    
+    #nav-bar_logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 544px) {
+    #nav-bar_logo {
+        display: inline;
+    }
+}
+
+#gdev {
+height: 40%;
+position: relative;
+margin: 0 auto;
+}
+
+#gdev img{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 80%;
+height: 50%;
+}
+
+#fuel {
+height: 25%;
+position: relative;
+margin-top: 25px !important;
+margin: 0 auto;
+}
+
+/*webkit hack*/
+@supports (-webkit-appearance:none) {
+    #gdev {
+        height: 100px;        
+    }
+}
+
+/*~~~~~~~~~~~~HEADSHOT SCALABILITY~~~~~~~~~~*/
+
+
+/* Ensure that all of the zero offsets are available - recent SASS version did not include .col-sm-offset-0 */
+@media only screen and (min-width: 768px) {
+	.col-xs-offset-3 {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.col-sm-offset-3 {
+		margin-left: 0;
+	}
+    
+    .col-sm-offset-2 {
+		margin-left: 0;
+	}
+    
+    .col-md-offset-4 {
+        margin-left: 33.4% !important;
+    }
+}
+
+/*~~~~~~~~~~PARTNERS HOVER~~~~~~~~~~~~~~*/ 
+
+#atmos:hover {
+     margin-top: -10px !important;
+    -webkit-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;    
+}
+
+#fuel:hover {
+     margin-top: -10px !important;
+    -webkit-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;    
+}
+
+#gdev:hover {
+     margin-top: -10px !important;
+    -webkit-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;    
+}
