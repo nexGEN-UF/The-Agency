@@ -141,7 +141,6 @@
     -o-transition: margin 0.5s ease-out;*/
 }
 
-
 .pillars {
     list-style-type: none;
     margin: 0;
@@ -309,12 +308,14 @@ width: 80%;
 height: 50%;
 }
 
+/*
 #fuel {
 height: 25%;
 position: relative;
 margin-top: 25px !important;
 margin: 0 auto;
 }
+*/
 
 /*webkit hack*/
 @supports (-webkit-appearance:none) {
@@ -371,4 +372,21 @@ margin: 0 auto;
     -ms-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;    
+}
+
+/*~~~~~~~~~~RECRUITMENT~~~~~~~~~~~~~~*/
+
+.btn-apply {
+	border-radius: 0px !important;
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+}
+
+.apply-section {
+	text-align: center;
+}
+
+#apply-button {
+	animation-duration: 0s !important;
 }
