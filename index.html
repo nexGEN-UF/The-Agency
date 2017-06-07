@@ -404,7 +404,7 @@
 
                                         <!--CATALYST-->
 																			
-                                        <div id="catalyst-panel" class="panel panel-default pillar-panel text-center">
+                                        <div id="catalyst-panel" class="panel panel-default pillar-panel text-center"> 
 																					<a data-toggle="collapse" data-parent="#accordion" data-target="#catalyst">
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">                                                    
@@ -1424,14 +1424,14 @@
                                         </div>
                                         
                                          <!--ADMIN-->
-																			<div id="admin-panel" class="panel panel-default pillar-panel text-center">
+																			<div id="admin-panel" style="height: auto" class="panel panel-default pillar-panel text-center">
 																				<a data-toggle="collapse" data-parent="#accordion" data-target="#admin">
 																					<div class="panel-heading">
 																						<h4 class="panel-title">
 																							Administrators
 																						</h4>
 																					</div>
-																						 </a>
+																				</a>
                                             <div id="admin" class="panel-collapse collapse">
                                                 <div class="panel-body" style="display: block;">
                                                     <div class="container-fluid">
@@ -1848,9 +1848,9 @@
                         </div>
                     
                         <div class="row" style="padding-top: 10px;">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="http://gainesvilledevacademy.com/"><img id="gdev" style="padding: 10px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/GainesvilleDev.png" /></a></div>
-														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="https://www.fuelcycle.com/"><img id="fuel" style="padding:5px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/logo-orange-3.png" /></a></div> 
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="http://www.atmosphereapps.com/"><img id="atmos" style="margin:0 auto;padding: 10px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/atmo-apps-logo.png" /></a></div>                            
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a target="_blank" href="http://gainesvilledevacademy.com/"><img id="gdev" style="padding: 10px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/GainesvilleDev.png" /></a></div>
+														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a target="_blank" href="https://www.fuelcycle.com/"><img id="fuel" style="padding:5px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/logo-orange-3.png" /></a></div> 
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a target="_blank" href="http://www.atmosphereapps.com/"><img id="atmos" style="margin:0 auto;padding: 10px; vertical-align: middle;" class="img-responsive" src="inc/img/partners/atmo-apps-logo.png" /></a></div>                            
                         </div>                   
                 </div>
             </section>
@@ -1881,6 +1881,43 @@
                     $(this).next.slideToggle("slow");
                 })
             });
+					
+					$(document).ready(function() {
+
+						$(document).scroll(function () {
+							var $nav = $(".navbar-fixed-top");
+							$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+						});
+						
+						/*Mobile compatibility for The Team */
+						
+//						if ($(window).width() < 578) {
+//								$("#catalyst-panel").click(function() {
+//							 $("#catalyst").toggle();
+//							 });
+//
+//							$("#strategist-panel").click(function() {
+//								 $("#strategist").toggle();
+//							 });
+//
+//							$("#creative-panel").click(function() {
+//								 $("#creative").toggle();
+//							 });
+//
+//							$("#developers-panel").click(function() {
+//								 $("#nexGEN").toggle();
+//							 });
+//
+//							$("#connector-panel").click(function() {
+//								 $("#connector").toggle();
+//							 });
+//
+//							$("#admin-panel").click(function() {
+//								 $("#admin").toggle();
+//							 });
+//						}						
+						
+					});
 
 
         </script>
