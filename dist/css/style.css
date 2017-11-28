@@ -289,6 +289,8 @@ h4 {
 
 }
 
+
+
 /*~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~*/
 
 .footer-logo {
@@ -366,6 +368,15 @@ margin: 0 auto;
         margin-left: 33.4% !important;
     }
 }
+
+/*~~~~~~~~~~CONTACT US  HOVER~~~~~~~~~~~~~~*/
+#contact a:active.btn-link:hover, #contact a:hover.btn-link:hover, #contact a:link.btn-link:hover, #contact a:visited.btn-link:hover {
+padding: .8rem 1.6rem;
+margin: 0 auto;
+text-align: center;
+text-transform: uppercase;
+background-color: #ba3e35;
+border-radius: 0;
 
 /*~~~~~~~~~~PARTNERS HOVER~~~~~~~~~~~~~~*/
 
