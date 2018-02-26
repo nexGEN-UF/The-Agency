@@ -1,0 +1,25 @@
+{
+  "name": "project100",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschwizzy710/project100.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aschwizzy710/project100/issues"
+  },
+  "homepage": "https://github.com/aschwizzy710/project100#readme",
+  "description": ""
+}
